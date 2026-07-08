@@ -1,0 +1,949 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="description"
+      content="Fitness Street Edinburgh is a premium gym on Gorgie Road for strength training, conditioning, personal training, group classes, and athlete performance."
+    />
+    <meta
+      name="keywords"
+      content="Fitness Street Edinburgh, Edinburgh gym, Gorgie gym, strength training Edinburgh, conditioning Edinburgh, personal training Edinburgh, group classes Edinburgh"
+    />
+    <link rel="canonical" href="https://www.fitness-street.co.uk/" />
+    <link rel="icon" type="image/png" href="./logo.png" />
+    <link rel="apple-touch-icon" href="./logo.png" />
+    <meta name="theme-color" content="#000000" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:site_name" content="Fitness Street Edinburgh" />
+    <meta property="og:title" content="Fitness Street Edinburgh | Strength, Conditioning & Performance Gym" />
+    <meta
+      property="og:description"
+      content="Premium strength, conditioning, personal training, group classes, and athlete performance coaching on Gorgie Road, Edinburgh."
+    />
+    <meta property="og:url" content="https://www.fitness-street.co.uk/" />
+    <meta property="og:image" content="https://www.fitness-street.co.uk/logo.png" />
+    <meta property="og:image:alt" content="Fitness Street Edinburgh logo" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Fitness Street Edinburgh | Strength, Conditioning & Performance Gym" />
+    <meta
+      name="twitter:description"
+      content="Premium strength, conditioning, personal training, group classes, and athlete performance coaching on Gorgie Road, Edinburgh."
+    />
+    <meta name="twitter:image" content="https://www.fitness-street.co.uk/logo.png" />
+    <meta name="twitter:image:alt" content="Fitness Street Edinburgh logo" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HealthClub",
+        "name": "Fitness Street Edinburgh",
+        "url": "https://www.fitness-street.co.uk/",
+        "logo": "https://www.fitness-street.co.uk/logo.png",
+        "image": "https://www.fitness-street.co.uk/logo.png",
+        "description": "Premium strength, conditioning, personal training, group classes, and athlete performance coaching on Gorgie Road, Edinburgh.",
+        "email": "info@fitness-street.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "545-551 Gorgie Road",
+          "addressLocality": "Edinburgh",
+          "addressCountry": "GB"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 55.9306146,
+          "longitude": -3.2537624
+        },
+        "hasMap": "https://www.google.com/maps/place/Fitness+Street/@55.9306176,-3.2563373,17z/data=!3m1!4b1!4m6!3m5!1s0x4887c75e8efbc809:0xbeccf7a1e6638293!8m2!3d55.9306146!4d-3.2537624!16s%2Fg%2F11g07_f6p3",
+        "areaServed": "Edinburgh",
+        "sameAs": [
+          "https://www.instagram.com/fitness_street_edinburgh",
+          "https://ecpgym.com/",
+          "https://endangeredfightwear.com/",
+          "https://theecpcharity.com/"
+        ]
+      }
+    </script>
+
+    <title>Fitness Street Edinburgh | Strength, Conditioning & Performance Gym</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap");
+
+      :root {
+        --black: #000000;
+        --near-black: #050505;
+        --panel: #0a0a0a;
+        --white: #ffffff;
+        --accent: #6b3bd2;
+        --accent-soft: #a686ff;
+        --muted-white: rgba(255, 255, 255, 0.62);
+        --muted-black: rgba(0, 0, 0, 0.65);
+        --container: 80rem;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+        background: var(--black);
+        color: var(--white);
+        font-family: "Manrope", system-ui, sans-serif;
+        font-synthesis: none;
+        line-height: 1.5;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      .section {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 5rem 0;
+      }
+
+      .container {
+        width: min(100% - 3rem, var(--container));
+        margin: 0 auto;
+      }
+
+      .eyebrow {
+        margin: 0;
+        color: var(--accent-soft);
+        font-size: 0.75rem;
+        font-weight: 500;
+        letter-spacing: 0.35em;
+        text-transform: uppercase;
+      }
+
+      .eyebrow.dark {
+        color: var(--accent);
+      }
+
+      .serif {
+        font-family: "Cormorant Garamond", Georgia, serif;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 3rem;
+        border-radius: 999px;
+        padding: 0.75rem 1.5rem;
+        font-size: 0.875rem;
+        font-weight: 500;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        transition: border-color 300ms ease, background 300ms ease, color 300ms ease, transform 300ms ease;
+      }
+
+      .button.primary {
+        border: 1px solid var(--accent);
+        background: var(--white);
+        color: var(--black);
+      }
+
+      .button.primary:hover {
+        border-color: var(--accent-soft);
+        background: var(--accent-soft);
+        color: var(--white);
+      }
+
+      .button.secondary {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: var(--white);
+      }
+
+      .button.secondary:hover {
+        border-color: var(--accent-soft);
+        background: var(--accent);
+      }
+
+      .hero {
+        position: relative;
+        display: flex;
+        min-height: 100vh;
+        align-items: center;
+        overflow: hidden;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        background: #000;
+      }
+
+      .hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          radial-gradient(circle at 15% 30%, rgba(255, 255, 255, 0.06), transparent 24%),
+          linear-gradient(180deg, #060608 0%, #000000 55%, #080808 100%);
+      }
+
+      .hero-inner {
+        position: relative;
+        display: flex;
+        width: min(100% - 3rem, var(--container));
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 0 4rem;
+      }
+
+      .logo-wrap {
+        width: min(100%, 56rem);
+        margin: 0 auto -0.75rem;
+      }
+
+      .logo {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        filter: drop-shadow(0 18px 50px rgba(0, 0, 0, 0.55));
+      }
+
+      .hero-copy {
+        max-width: 56rem;
+        margin: -0.5rem auto 0;
+        text-align: center;
+      }
+
+      .hero h1 {
+        max-width: 56rem;
+        margin: 0 auto;
+        color: var(--white);
+        font-size: clamp(3.25rem, 9vw, 5.5rem);
+        line-height: 0.9;
+      }
+
+      .hero-tagline {
+        margin: 1.5rem 0 0;
+        color: var(--accent-soft);
+        font-size: clamp(1rem, 2vw, 1.125rem);
+      }
+
+      .hero-body {
+        max-width: 42rem;
+        margin: 1.5rem auto 0;
+        color: var(--muted-white);
+        font-size: clamp(0.875rem, 2vw, 1rem);
+        line-height: 1.75;
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 2.5rem;
+      }
+
+      .space {
+        background: var(--white);
+        color: var(--black);
+      }
+
+      .space-grid,
+      .location-grid {
+        display: grid;
+        gap: 3rem;
+      }
+
+      .section h2 {
+        margin: 1rem 0 0;
+        font-size: clamp(2rem, 4vw, 2.5rem);
+        line-height: 1.1;
+      }
+
+      .section-copy {
+        max-width: 36rem;
+        margin-top: 1.25rem;
+        color: var(--muted-black);
+        font-size: clamp(0.875rem, 2vw, 1rem);
+        line-height: 1.75;
+      }
+
+      .space-list {
+        margin-top: 2.5rem;
+        border-left: 1px solid rgba(107, 59, 210, 0.2);
+        padding-left: 1.5rem;
+      }
+
+      .space-list p {
+        margin: 0 0 1.25rem;
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 0.875rem;
+        line-height: 1.75;
+      }
+
+      .image-grid {
+        display: grid;
+        gap: 1rem;
+      }
+
+      .image-grid img {
+        width: 100%;
+        height: 16rem;
+        border-radius: 2rem;
+        object-fit: cover;
+        filter: grayscale(1);
+        transition: filter 500ms ease;
+      }
+
+      .image-grid img:hover {
+        filter: grayscale(0);
+      }
+
+      .image-grid .wide {
+        height: 20rem;
+      }
+
+      .features,
+      .location {
+        background: var(--near-black);
+      }
+
+      .features .section-copy,
+      .location-copy {
+        color: var(--muted-white);
+      }
+
+      .feature-grid {
+        display: grid;
+        gap: 1px;
+        overflow: hidden;
+        margin-top: 3.5rem;
+        border-radius: 2rem;
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      .feature-card {
+        background: var(--panel);
+        padding: 2rem;
+        transition: background 300ms ease;
+      }
+
+      .feature-card:hover {
+        background: #111111;
+      }
+
+      .feature-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+
+      .icon {
+        display: flex;
+        width: 3rem;
+        height: 3rem;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 999px;
+        color: var(--accent-soft);
+      }
+
+      .number {
+        color: rgba(255, 255, 255, 0.25);
+        font-size: 0.65rem;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+      }
+
+      .feature-card h3 {
+        margin: 2rem 0 0;
+        color: var(--white);
+        font-size: 1.25rem;
+        font-weight: 500;
+      }
+
+      .feature-card p {
+        margin: 0.75rem 0 0;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 0.875rem;
+        line-height: 1.75;
+      }
+
+      .location-copy {
+        margin-top: 2rem;
+        font-size: clamp(0.875rem, 2vw, 1rem);
+        line-height: 1.75;
+      }
+
+      .location-copy p {
+        margin: 0 0 1.5rem;
+      }
+
+      .location-copy .muted {
+        color: rgba(255, 255, 255, 0.52);
+      }
+
+      .map-panel {
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 2rem;
+        background: var(--panel);
+      }
+
+      .map-inner {
+        padding: 0.75rem;
+        background:
+          radial-gradient(circle at top, rgba(107, 59, 210, 0.18), transparent 38%),
+          linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+      }
+
+      .map-inner iframe {
+        width: 100%;
+        height: 21rem;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 1.5rem;
+      }
+
+      .map-action {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0.75rem;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 1.25rem;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 0.75rem 1rem;
+      }
+
+      .map-action a {
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: 999px;
+        padding: 0.5rem 1rem;
+        font-size: 0.75rem;
+        font-weight: 500;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        transition: border-color 300ms ease, color 300ms ease;
+      }
+
+      .map-action a:hover {
+        border-color: var(--accent-soft);
+        color: var(--accent-soft);
+      }
+
+      .brands,
+      .final-cta {
+        background: var(--white);
+        color: var(--black);
+      }
+
+      .brand-grid {
+        display: grid;
+        gap: 1.25rem;
+        margin-top: 3.5rem;
+      }
+
+      .brand-card {
+        display: flex;
+        min-height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 2rem;
+        background: #f5f4f8;
+        padding: 2rem;
+        transition: border-color 300ms ease, transform 300ms ease;
+      }
+
+      .brand-card:hover {
+        transform: translateY(-0.25rem);
+        border-color: rgba(107, 59, 210, 0.35);
+      }
+
+      .brand-card .label {
+        margin: 0;
+        color: rgba(0, 0, 0, 0.35);
+        font-size: 0.75rem;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+      }
+
+      .brand-card h3 {
+        margin: 1.25rem 0 0;
+        font-size: 1.5rem;
+        line-height: 1.1;
+      }
+
+      .brand-card p {
+        margin: 1rem 0 0;
+        color: var(--muted-black);
+        font-size: 0.875rem;
+        line-height: 1.75;
+      }
+
+      .brand-card .button {
+        margin-top: 2.5rem;
+        border: 1px solid var(--black);
+        color: var(--black);
+      }
+
+      .brand-card .button:hover {
+        border-color: var(--accent);
+        background: var(--accent);
+        color: var(--white);
+      }
+
+      .cta-panel {
+        border-radius: 2rem;
+        background: linear-gradient(145deg, #050507 0%, #10091f 100%);
+        color: var(--white);
+        padding: 3rem 1.5rem;
+      }
+
+      .cta-panel h2 {
+        font-size: clamp(2.5rem, 7vw, 3rem);
+        line-height: 1;
+      }
+
+      .cta-panel p {
+        max-width: 42rem;
+        margin-top: 1.25rem;
+        color: var(--muted-white);
+        font-size: clamp(0.875rem, 2vw, 1rem);
+        line-height: 1.75;
+      }
+
+      .cta-actions {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 2.5rem;
+      }
+
+      .footer {
+        background: #030303;
+        padding: 3rem 0;
+        color: var(--white);
+      }
+
+      .footer-grid {
+        display: grid;
+        gap: 2.5rem;
+      }
+
+      .footer-title {
+        margin: 0;
+        font-size: 1.5rem;
+      }
+
+      .footer-copy {
+        max-width: 28rem;
+        margin: 1rem 0 0;
+        color: rgba(255, 255, 255, 0.58);
+        font-size: 0.875rem;
+        line-height: 1.75;
+      }
+
+      .footer-label {
+        margin: 0;
+        color: rgba(255, 255, 255, 0.35);
+        font-size: 0.75rem;
+        letter-spacing: 0.35em;
+        text-transform: uppercase;
+      }
+
+      .footer-links,
+      .footer-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        margin-top: 1.25rem;
+        color: rgba(255, 255, 255, 0.62);
+        font-size: 0.875rem;
+      }
+
+      .footer a {
+        transition: color 300ms ease;
+      }
+
+      .footer a:hover {
+        color: var(--accent-soft);
+      }
+
+      @media (min-width: 640px) {
+        .container,
+        .hero-inner {
+          width: min(100% - 4rem, var(--container));
+        }
+
+        .hero-inner {
+          gap: 1.5rem;
+          padding-top: 1.5rem;
+        }
+
+        .logo-wrap {
+          margin-bottom: -1rem;
+        }
+
+        .hero-copy {
+          margin-top: -0.75rem;
+        }
+
+        .hero-actions,
+        .cta-actions {
+          flex-direction: row;
+        }
+
+        .image-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .image-grid .wide {
+          grid-column: span 2;
+          height: 26rem;
+        }
+
+        .map-inner {
+          padding: 1rem;
+        }
+
+        .map-inner iframe {
+          height: 24rem;
+        }
+
+        .cta-panel {
+          padding: 4rem 2.5rem;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .feature-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .brand-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .container,
+        .hero-inner {
+          width: min(100% - 6rem, var(--container));
+        }
+
+        .hero-inner {
+          padding-top: 2rem;
+          padding-bottom: 5rem;
+        }
+
+        .space-grid {
+          grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+        }
+
+        .location-grid {
+          grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+        }
+
+        .cta-panel {
+          padding: 4rem 3.5rem;
+        }
+
+        .footer-grid {
+          grid-template-columns: 1.1fr 0.9fr 0.8fr;
+        }
+      }
+
+      @media (min-width: 1280px) {
+        .feature-grid {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .brand-grid {
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          scroll-behavior: auto !important;
+          transition-duration: 1ms !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-inner">
+          <div class="logo-wrap">
+            <img class="logo" src="./logo.png" alt="Fitness Street Edinburgh" />
+          </div>
+
+          <div class="hero-copy">
+            <h1 id="hero-heading" class="serif">Edinburgh’s New Standard in Fitness</h1>
+            <p class="hero-tagline">Strength. Conditioning. Performance.</p>
+            <p class="hero-body">
+              Built for serious training, disciplined coaching, and a stronger standard of gym experience in Edinburgh.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button primary" href="https://fitnessstreet.clubright.co.uk/MemberArea/SelectMembership" target="_blank" rel="noreferrer">Join Now</a>
+              <a class="button secondary" href="mailto:info@fitness-street.com?subject=Fitness%20Street%20Edinburgh%20Enquiry">Enquire</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="space" class="section space" aria-labelledby="space-heading">
+        <div class="container space-grid">
+          <div>
+            <p class="eyebrow dark">The Space</p>
+            <h2 id="space-heading" class="serif">Built for serious training. No gimmicks. Just results.</h2>
+            <p class="section-copy">
+              Every square metre is designed to support high-quality work, from heavy strength sessions to focused conditioning blocks and coached one-to-ones.
+            </p>
+            <div class="space-list">
+              <p>Open, disciplined layout with space to move.</p>
+              <p>Premium equipment mix chosen for performance, durability, and training flow.</p>
+              <p>A calm visual environment that keeps attention on the session, not the noise around it.</p>
+            </div>
+          </div>
+
+          <div class="image-grid" aria-label="Fitness Street training space images">
+            <img class="wide" src="./assets/gym-floor-strength-equipment.jpg" alt="Premium gym floor with strength equipment" />
+            <img src="./assets/conditioning-battle-ropes.jpg" alt="Athlete training with battle ropes" />
+            <img src="./assets/personal-training-session.jpg" alt="Focused personal training session in a modern gym" />
+          </div>
+        </div>
+      </section>
+
+      <section id="offer" class="section features" aria-labelledby="offer-heading">
+        <div class="container">
+          <div>
+            <p class="eyebrow">What We Offer</p>
+            <h2 id="offer-heading" class="serif">Precision coaching for every training goal</h2>
+            <p class="section-copy">
+              Every session is designed to move the needle, whether you are building strength, improving conditioning, or training for competition.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-top">
+                <div class="icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 10v4M7 8v8M17 8v8M21 10v4M7 12h10M3 12h2M19 12h2"/></svg>
+                </div>
+                <span class="number">01</span>
+              </div>
+              <h3>Strength Training</h3>
+              <p>Structured sessions built around progressive overload, technical quality, and measurable improvement.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-top">
+                <div class="icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s7-4.35 7-11a4 4 0 0 0-7-2.65A4 4 0 0 0 5 10c0 6.65 7 11 7 11Z"/></svg>
+                </div>
+                <span class="number">02</span>
+              </div>
+              <h3>Conditioning</h3>
+              <p>Engine-building work that develops output, resilience, and repeatable performance across every session.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-top">
+                <div class="icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm-7 8a7 7 0 0 1 14 0"/></svg>
+                </div>
+                <span class="number">03</span>
+              </div>
+              <h3>Personal Training</h3>
+              <p>Direct coaching with precise programming, clear accountability, and a plan built around your objectives.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-top">
+                <div class="icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M9 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm8 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM3 20a6 6 0 0 1 12 0M14 20a5 5 0 0 1 7 0"/></svg>
+                </div>
+                <span class="number">04</span>
+              </div>
+              <h3>Group Classes</h3>
+              <p>High-quality coaching in a focused group setting that keeps standards high and energy sharp.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-top">
+                <div class="icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m4 14 4-4 3 3 7-7M18 6h3v3"/></svg>
+                </div>
+                <span class="number">05</span>
+              </div>
+              <h3>Athlete Performance</h3>
+              <p>Performance work for competitors and serious trainees who need transfer, intent, and disciplined progression.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-top">
+                <div class="icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 19v-2a4 4 0 0 1 4-4h3a4 4 0 0 1 4 4v2M9.5 9a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm8 2a2.5 2.5 0 1 0 0-5M17 19v-2a3.5 3.5 0 0 0-2-3.16"/></svg>
+                </div>
+                <span class="number">06</span>
+              </div>
+              <h3>SGC</h3>
+              <p>Small Group Coaching with sharper coach-to-member attention, structured progress, and the energy of focused group training.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="location" class="section location" aria-labelledby="location-heading">
+        <div class="container location-grid">
+          <div>
+            <p class="eyebrow">Location</p>
+            <h2 id="location-heading" class="serif">Easy to reach. Ready for work.</h2>
+            <div class="location-copy">
+              <p>545-551 Gorgie Road, Edinburgh</p>
+              <p>Positioned on a well-connected route with straightforward access from central Edinburgh, plus nearby public transport links and local parking options.</p>
+              <p>The gym is set up to make early sessions, evening training, and regular weekly routines practical.</p>
+              <p class="muted">Accessible by local bus routes with practical parking options nearby for early and evening sessions.</p>
+            </div>
+          </div>
+
+          <div class="map-panel">
+            <div class="map-inner">
+              <iframe
+                title="Fitness Street Edinburgh map"
+                src="https://www.google.com/maps?q=55.9306146,-3.2537624(Fitness%20Street)&z=17&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              <div class="map-action">
+                <a href="https://www.google.com/maps/place/Fitness+Street/@55.9306176,-3.2563373,17z/data=!3m1!4b1!4m6!3m5!1s0x4887c75e8efbc809:0xbeccf7a1e6638293!8m2!3d55.9306146!4d-3.2537624!16s%2Fg%2F11g07_f6p3" target="_blank" rel="noreferrer">Open in Google Maps</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="brands" class="section brands" aria-labelledby="brands-heading">
+        <div class="container">
+          <div>
+            <p class="eyebrow dark">Part of the Same Team</p>
+            <h2 id="brands-heading" class="serif">Four brands, one standard</h2>
+            <p class="section-copy">
+              Fitness Street Edinburgh sits alongside a respected fight gym and a premium fightwear label, bringing the same seriousness to training, design, and performance.
+            </p>
+          </div>
+
+          <div class="brand-grid">
+            <article class="brand-card">
+              <div>
+                <p class="label">Brand</p>
+                <h3 class="serif">Fitness Street Edinburgh</h3>
+                <p>A premium training space created for members who want focused coaching, serious equipment, and a stronger standard of gym experience.</p>
+              </div>
+              <a class="button" href="#top">Visit</a>
+            </article>
+
+            <article class="brand-card">
+              <div>
+                <p class="label">Brand</p>
+                <h3 class="serif">ECP Gym</h3>
+                <p>Established Muay Thai training in Edinburgh with a reputation for real coaching, technical standards, and a committed team culture.</p>
+              </div>
+              <a class="button" href="https://ecpgym.com/" target="_blank" rel="noreferrer">Visit</a>
+            </article>
+
+            <article class="brand-card">
+              <div>
+                <p class="label">Brand</p>
+                <h3 class="serif">Endangered Fightwear</h3>
+                <p>Premium fightwear with a refined visual identity and a sharp product standard that informs the Fitness Street aesthetic.</p>
+              </div>
+              <a class="button" href="https://endangeredfightwear.com/" target="_blank" rel="noreferrer">Visit</a>
+            </article>
+
+            <article class="brand-card">
+              <div>
+                <p class="label">Brand</p>
+                <h3 class="serif">The Edinburgh Combat Project</h3>
+                <p>Registered Charity. Supporting children and youth to access martial arts.</p>
+              </div>
+              <a class="button" href="https://theecpcharity.com/" target="_blank" rel="noreferrer">Visit</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="final-cta" class="section final-cta">
+        <div class="container">
+          <div class="cta-panel">
+            <p class="eyebrow">Final Call</p>
+            <h2 class="serif">Ready to Start?</h2>
+            <p>
+              Join Fitness Street Edinburgh today, or speak to the team about the right membership and coaching path for you.
+            </p>
+
+            <div class="cta-actions">
+              <a class="button primary" href="https://fitnessstreet.clubright.co.uk/MemberArea/SelectMembership" target="_blank" rel="noreferrer">Join Now</a>
+              <a class="button secondary" href="mailto:info@fitness-street.com?subject=Fitness%20Street%20Edinburgh%20Enquiry">Enquire</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container footer-grid">
+          <div>
+            <p class="footer-title serif">Fitness Street Edinburgh</p>
+            <p class="footer-copy">
+              Premium training environment for strength, conditioning, and performance on Gorgie Road.
+            </p>
+          </div>
+
+          <div>
+            <p class="footer-label">Brands</p>
+            <div class="footer-links">
+              <a href="#top">Fitness Street Edinburgh</a>
+              <a href="https://ecpgym.com/" target="_blank" rel="noreferrer">ECP Gym</a>
+              <a href="https://endangeredfightwear.com/" target="_blank" rel="noreferrer">Endangered Fightwear</a>
+              <a href="https://theecpcharity.com/" target="_blank" rel="noreferrer">The Edinburgh Combat Project</a>
+            </div>
+          </div>
+
+          <div>
+            <p class="footer-label">Contact</p>
+            <div class="footer-contact">
+              <a href="mailto:info@fitness-street.com">info@fitness-street.com</a>
+              <span>545-551 Gorgie Road, Edinburgh</span>
+              <a href="https://www.instagram.com/fitness_street_edinburgh" target="_blank" rel="noreferrer">Instagram</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
