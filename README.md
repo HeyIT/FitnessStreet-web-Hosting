@@ -18,7 +18,7 @@ The site is intentionally simple: it is a single `index.html` file with embedded
 
 - Business name: Fitness Street Edinburgh
 - Website: `https://www.fitness-street.co.uk/`
-- Email: `info@fitness-street.com`
+- Email: `info@fitness-street.co.uk`
 - Address: `545-551 Gorgie Road, Edinburgh`
 - Instagram: `https://www.instagram.com/fitness_street_edinburgh`
 - Join link: `https://fitnessstreet.clubright.co.uk/MemberArea/SelectMembership`
@@ -31,7 +31,7 @@ Common things to update:
 
 - Hero headline: search for `Edinburgh’s New Standard in Fitness`
 - Join button link: search for `fitnessstreet.clubright.co.uk`
-- Email address: search for `info@fitness-street.com`
+- Email address: search for `info@fitness-street.co.uk`
 - Google map: search for `google.com/maps`
 - Brand links: search for `ecpgym.com`, `endangeredfightwear.com`, or `theecpcharity.com`
 - Space section images: replace the files in `assets/` and keep the same file names, or update the image paths in `index.html`
